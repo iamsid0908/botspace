@@ -4,11 +4,9 @@ import {
   Paper,
   Typography,
   Button,
-  Avatar,
   IconButton,
   Chip,
   Radio,
-  Input,
   TextField,
 } from "@mui/material";
 import {
@@ -18,12 +16,6 @@ import {
   Send,
   Settings,
   Notifications,
-  MoreHoriz,
-  Favorite,
-  ChatBubbleOutline,
-  Share,
-  Bookmark,
-  ArrowBack,
 } from "@mui/icons-material";
 import Mobile from "../component/Mobile";
 import { useState } from "react";
