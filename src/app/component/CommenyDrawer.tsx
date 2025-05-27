@@ -11,8 +11,8 @@ interface Comment {
 }
 
 interface CommentsSectionProps {
-  isVisible: boolean;
-  onClose: () => void;
+  isVisible?: boolean;
+  onClose?: () => void;
   comval?: string;
 }
 const CommentsSection = ({

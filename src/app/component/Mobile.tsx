@@ -21,8 +21,8 @@ const Mobile = ({
   post,
   conval,
 }: {
-  post: any | undefined;
-  conval: string;
+  post?: any | undefined;
+  conval?: string;
 }) => {
   const [open, setOpen] = useState(false);
   const [comment, setComment] = useState(false);
